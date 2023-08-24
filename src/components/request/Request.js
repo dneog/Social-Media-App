@@ -14,7 +14,7 @@ const Request = ({userDetails, req}) => {
 
       <div className={styles.r2}>
       <p className={styles.r1}>Friend Requests</p>
-      <Link to={'/friendRequests'} >
+      <Link to={'/notification'} >
       <p className={styles.r3}>View All</p>
       </Link>
       </div>
