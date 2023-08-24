@@ -1,0 +1,33 @@
+.out{
+    position:fixed ;
+    width: 100vw;
+    height: 100vh;
+    background: #00000000;
+    z-index: 9;
+
+}
+.loader{
+  
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    
+    .gif{
+        width:20px;
+       
+    }
+   
+}
+.loader2{
+  
+   
+   
+    
+    .gif2{
+        width: 15px;
+       
+    }
+   
+}

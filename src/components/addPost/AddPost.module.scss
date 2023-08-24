@@ -1,0 +1,158 @@
+.man{
+    background: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0px 5px 15px -3px rgba(0, 0, 0, 0.071);
+       margin-bottom: 17px;
+}
+
+
+.add{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    position: relative;
+    .usa{
+        width: 37px;
+        
+     }
+     .usas{
+        position: absolute;
+        width: 37px;
+     }
+
+     input{
+        width: 100%;
+        margin: 0px 10px;
+        font-size: 15px;
+        padding: 5px 5px;
+        border: 0.4px solid rgba(0, 0, 0, 0.425);
+     }
+}
+.adds{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    padding-bottom: 15px;
+    position: relative;
+
+    label{
+        display: flex;
+    }
+
+    p{
+        cursor: pointer;
+        padding-top: 2px;
+    }
+   .img1{
+    width: 27px;
+    margin-left: 45px;
+    margin-right: 6px;
+    cursor: pointer;
+   
+   }
+   .pick{
+    position: absolute;
+    left: 50px;
+    z-index: 999;
+   visibility: hidden;
+   }
+}
+.adds2{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    padding-bottom: 15px;
+   .img1{
+    width: 27px;
+    margin-left: 25px;
+    margin-right: 6px;
+   }
+}
+.adds3{
+    display: flex;
+
+    align-items: center;
+    padding: 0px 10px;
+    padding-bottom: 15px;
+   .btn{
+    padding: 4px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    background: #8655e7;
+    border: 0;
+    color: white;
+    transition: all 0.2s;
+    cursor: pointer;
+    &:hover{
+        background: #7f40fb;
+    }
+   }
+   .btnsa{
+    padding: 4px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: not-allowed;
+    margin-right: 10px;
+    background: #9f6fff;
+    border: 0;
+    color: white;
+    transition: all 0.2s;
+    
+    &:hover{
+        background: #7f40fb;
+    }
+   }
+}
+
+.three{
+    display: flex;
+   justify-content: space-between;
+
+    .pd{
+        display: flex;
+    }
+}
+
+.ImgBlock{
+   width: 88.2%;
+   position: relative;
+   margin-left: 58px;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+    margin-bottom: 10px;
+   .im{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    
+   }
+   .ic{
+    z-index: 999;
+    position: absolute;
+    font-size: 22px;
+   color: #00000090;
+    border-radius: 50%;
+    top: 3%;
+    right: 2%;
+    cursor: pointer;
+    &:hover{
+        color: #000000d9;
+    }
+   }
+}
+
+.userss{
+    width: 37px;
+   position: relative;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,147 @@
+
+body{
+    // background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    
+    // min-height: 80vh;
+}
+.main{
+    height: 80vh;
+  padding-top: 70px;
+ 
+}
+form{
+   
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    display: flex;
+    background: #ffffffed;
+    flex-direction: column;
+    width: 340px;
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.244);
+    font-size: 20px;
+    margin: 0px auto;
+    // margin-top: 120px;
+   
+   
+    .lo{
+        text-align: center;
+        font-size: 21px;
+        font-weight: 500;
+        padding-bottom: 10px;
+        color: #6d23ee;
+        padding-top: 2px;
+
+    }
+    .forgot{
+        padding-left: 5px;
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    .ors{
+        text-align: center;
+       font-size: 14px;
+
+
+    }
+    input{
+        font-size: 17px;
+        padding: 6px;
+        border: 0.5px solid rgba(0, 0, 0, 0.484);
+        margin: 5px;
+
+    }
+   .loginButton{
+        margin: 5px;
+        padding: 7px;
+        font-size: 18px;
+        background: #8946fc;
+        color: white;
+        border: 0;
+        transition: all 0.2s;
+        cursor: pointer;
+        &:hover{
+            background: #6d23ee;
+        }
+    }
+
+    .google{
+        margin: 5px;
+        padding: 6px;
+        font-size: 17px;
+        background: #00000000;
+        border: 0.5px solid rgba(0, 0, 0, 0.529);
+        cursor: pointer;
+        transition: all 0.2s;
+       
+        &:hover{
+            background: #fbfbfb;
+        }
+    }
+    .ic{
+        margin-bottom: -5px;
+        font-size: 21px;
+    }
+
+}
+.don{
+    color: rgba(82, 82, 82, 0.915);
+    text-align: center;
+    padding-top: 15px;
+    span{
+        color: #8d4cff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.space{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.pd{
+
+    width: 40px;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 3px solid rgb(247, 237, 255);
+    color: rgb(239, 245, 255);
+    border-radius: 100%;
+    padding: 0px 9px;
+
+    
+}
+
+.loginButtonss{
+    display: flex;
+    margin: auto;
+    padding: 7px 20px;
+    font-size: 17px;
+    background: #7829ff00;
+    border: 1px solid black;
+    margin-top: 10px;
+    color: rgb(74, 74, 74);
+    border-radius: 3px;
+    transition: all 0.2s;
+    cursor: pointer;
+    &:hover{
+        background: #ffffff;
+    }
+}
+
+.oro{
+    text-align: center;
+    color: rgba(55, 55, 55, 0.778);
+    font-size: 15px;
+}
+
+.sns{
+    width: 60px;
+   margin: auto;
+}

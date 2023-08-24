@@ -1,0 +1,24 @@
+
+.dv{
+    border: 1px solid rgba(0, 0, 0, 0.499);
+    padding: 5px 15px;
+    border-radius: 45px;
+.inpt{
+    border: 0;
+    outline: none;
+    
+    width: 250px;
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width : 768px) {
+    .dv{
+    .inpt{
+       
+        
+        width: 160px;
+        font-size: 14px;
+    }
+}
+}

@@ -1,0 +1,135 @@
+.dash {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    max-width: 1350px;
+    padding: 0px 20px;
+    margin: auto;
+}
+   .navbar1 {
+     width: 20%;
+     max-width: 260px;
+    
+      
+      min-height: 80vh;
+      position: fixed;
+      left: 1;
+      top: 10;
+     
+     
+      
+    }
+   .navbar2 {
+      width: 51%;
+      min-height: 80vh;
+     position: absolute;
+     margin-left: 20px;
+    
+     left: 21%;
+     right: 20%;
+     
+      
+    }
+   .navbar22 {
+      width: 80%;
+      min-height: 80vh;
+     position: absolute;
+     left: 22.4%;
+     right: 20%;
+     
+      
+    }
+   .navbar3 {
+      width: 23.5%;
+      min-height: 80vh;
+      position: absolute;
+      margin-right: 20px;
+      right: 0;
+     
+      
+    }
+    // .contents-dash {
+     
+    //   width: 75%;
+    //   padding: 0rem 1rem;
+    //   margin-left: 22%;
+      
+    // }
+    // .contents-dashed {
+    //   width: 100%;
+    //   display: flex;
+    //   padding: 0rem 1rem;
+    //   justify-content: space-between;
+    //   margin-left: 20.2%;
+
+    //   .sep1{
+    //     width: 65%;
+        
+    //   }
+    //   .sep2{
+    //     margin-left:1rem;
+    //     width: 35%;
+    //     margin-left: 45.5%;
+    //     position: fixed;
+    //     border-radius: 10px;
+    //   }
+     
+      
+      @media screen and (max-width : 768px) {
+          .dash{
+            width: 100%;
+            padding: 0px;
+               margin: auto;
+
+            .navbar1 {
+               width: 12%;                            
+                min-height: 80vh;
+                position: fixed;
+                left: 1;
+                top: 10;                      
+              }
+
+              .navbar22 {
+            
+            
+             min-height: 80vh;
+            position: absolute;
+            left: 15.5%;
+            right: 0%;
+          
+             }
+             .navbar2 {
+              width: 80%;
+               min-height: 80vh;
+               
+           
+            min-height: 80vh;
+           position: relative;
+          
+          
+           left: 10%;
+           
+             
+              
+              
+               
+             }
+             
+             .navbar3 {
+              
+              width: 0%;
+              display: none;
+              
+              
+             
+              
+               
+             }
+
+             
+          }
+
+      }
+    
+  

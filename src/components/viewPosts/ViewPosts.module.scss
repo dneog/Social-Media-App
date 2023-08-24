@@ -1,0 +1,356 @@
+.mans{
+    background: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0px 5px 15px -3px rgba(0, 0, 0, 0.071);
+        margin-top: 12px;
+        padding-bottom: 15px;
+
+        .dflex{
+            display: flex;
+            position: relative;
+            align-items: center;
+            padding: 10px;
+
+            .usu{
+                
+                    width: 37px;
+                   
+                   border-radius: 50%;
+                   cursor: pointer;
+                
+            }
+
+            p{
+                padding-left: 10px;
+                position: relative;
+                bottom: 4px;
+                font-size: 17px;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.832);
+            }
+
+
+           
+
+            
+        }
+
+        .sk{
+            display: block;
+        }
+
+        .p2{
+            p{
+                padding-left: 58px;
+                font-size: 18px;
+                margin-top: -11px;
+                color: rgba(0, 0, 0, 0.925);
+            }
+
+        }
+
+
+
+}
+
+
+
+.ImgBlock{
+    width: 88.3%;
+   
+    position: relative;
+    margin-left: 58px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+  
+   margin-top: 6px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+    
+    .im{
+        
+     max-width: 100%;
+     max-height: 100%;
+     
+    
+    
+    
+     
+     
+     
+    }
+    .ic{
+     z-index: 999;
+     position: absolute;
+     font-size: 22px;
+     color: rgb(94, 8, 255);
+     
+     top: 3%;
+     right: 2%;
+     cursor: pointer;
+    }
+ }
+
+ .ss{
+    display: flex;
+    
+    
+    justify-content: space-between;
+
+    .s1{
+        margin-left: 57px;
+        
+        .s2{
+            padding-right: 20px;
+            position: relative;
+            transition: all 0.2s;
+            &:hover{
+                cursor: pointer;
+              color: red;
+            }
+        }
+        .s3{
+            position: absolute;
+            transition: all 0.2s;
+            margin-left: -43px;
+            margin-top: -2px;
+            color: rgb(255, 82, 82);
+           
+        }
+    }
+
+    .s4{
+          
+    padding-right: 20px;
+   
+    
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.834);
+
+    }
+
+    .s5{
+        position: relative;
+        margin-left: 10px;
+       
+        transition: all 0.2s;
+        &:hover{
+            cursor: pointer;
+          color: rgb(104, 0, 208);
+        }
+    }
+    .s9{
+        margin-left: 20px;
+        position: relative;
+        top: -2.4px;
+        transition: all 0.2s;
+        &:hover{
+            cursor: pointer;
+          color: rgb(218, 83, 5);
+        }
+    }
+ }
+
+ .count{
+    display: flex;
+    margin-left: 58px;
+
+    span{
+        font-size: 13px;
+        margin-top: -3px;
+    }
+ }
+
+ .cbox{
+    margin-top: 7px;
+    border-radius: 6px;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    border: 0.2px solid rgba(0, 0, 255, 0.364);
+    width: 88%;
+    margin-left: 58px;
+    
+    .cn{
+        margin-bottom: 4px;
+        margin-left: 4px;
+        font-weight: 500;
+        color: #5024e0c8;
+    }
+ }
+
+ .userss{
+    width: 25px;
+   position: relative;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.usa{
+    width: 25px;
+    
+ }
+ .usas{
+    position: absolute;
+    width: 37px;
+ }
+ .os1{
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+
+    p{
+        font-size: 14px;
+        font-weight: 500;
+        color: #353535;
+        padding-left: 6px;
+    }
+ }
+
+ .os2{
+    margin-left: 30px;
+    margin-top: -5px;
+ }
+
+ .ad{
+    margin-top: 12px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+
+    input{
+        margin-left: 5px;
+        padding: 3px 5px;
+        border: 0.2px solid rgba(0, 0, 0, 0.459);
+        width: 70%;
+        font-size: 14.3px;
+        border-radius: 3px;
+    }
+    .bx{
+        padding: 3px 10px;
+        margin-left: 8px;
+        background: hsl(0, 0%, 100%);
+        border: 1px solid rgba(7, 7, 8, 0.464);
+        font-size: 14.3px;
+        border-radius: 3px;
+        cursor: pointer;
+        &:hover{
+            background: #f9f9f9;
+        }
+    }
+ }
+
+ .os{
+    margin-bottom: 6px;
+ }
+ .ct{
+    font-size: 14px;
+    margin-left: 5px;
+ }
+
+ @media screen and (max-width : 1264px) {
+    .ImgBlock{
+        width: 87%;
+    }
+ }
+ @media screen and (max-width : 1128px) {
+    .ImgBlock{
+        width: 86%;
+    }
+ }
+ @media screen and (max-width : 1050px) {
+    .ImgBlock{
+        width: 85%;
+    }
+ }
+ @media screen and (max-width : 900px) {
+    .ImgBlock{
+        width: 83%;
+    }
+ }
+
+ @media screen and (max-width : 768px) {
+
+   
+    .mans{
+        .sk{
+            display: none;
+        }
+    
+    .p2{
+        p{
+            padding-left: 12px;
+            font-size: 15px;
+            margin-top: -10px;
+            color: rgba(0, 0, 0, 0.925);
+        }
+
+    }
+    }
+
+
+    .ImgBlock{
+        width: 93%;
+        margin-left: 12px;
+        .im{
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 6px;
+            display: block;
+            
+            
+           }
+            .ss{
+                .s1{
+                    .s2{
+                        padding-right: 10px;
+                    }
+                }
+            
+           .s4{
+          padding-right: 0px;
+            
+           
+            
+            font-size: 12px;
+            
+        
+            }
+        }
+    }
+    .cbox{
+        margin-top: 7px;
+        border-radius: 6px;
+        padding: 5px 10px;
+        padding-bottom: 10px;
+        transition: all 0.3s;
+        border: 0.2px solid rgba(0, 0, 255, 0.364);
+        width: 88%;
+        margin-left: 10px;
+        
+        .cn{
+            margin-bottom: 4px;
+            margin-left: 4px;
+            font-weight: 500;
+            color: #5024e0c8;
+        }
+     }
+
+     .ss{
+        display: flex;
+        .s1{
+            margin-left: 12px;
+        }
+        
+        justify-content: space-between;
+    
+       .s5{
+        margin-left: 3px;
+       }
+    }    
+    
+
+ }

@@ -1,0 +1,27 @@
+.results{
+   
+    z-index: 0;
+   width: 331px;
+    // top: 70px;
+    // right: 87px;
+    background: #ffffff;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    padding: 15px;
+    border-radius: 5px;
+
+    .r1s{
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        .usersSeach{
+            width: 35px;
+            position: relative;
+            top: 2px;
+            cursor: pointer;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    }
+
+}

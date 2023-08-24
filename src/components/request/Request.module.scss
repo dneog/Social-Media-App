@@ -1,0 +1,151 @@
+.req{
+    
+   background: #ffffff;
+   padding: 10px 15px;
+  
+   border-radius: 5px;
+    .r2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .r1{
+            font-size: 18px;
+            color: rgba(130, 8, 252, 0.896);
+            font-weight: 500;
+           }
+        .r3{
+            font-size: 15px;
+            padding-top: 2px;
+            color: blue;
+            cursor: pointer;
+        }   
+    }
+   
+
+
+}
+
+.rr{
+    
+   
+    background: #ffffff;
+    
+    margin-top: 10px;
+ 
+
+    padding: 10px;
+    border-radius: 5px;
+
+.r5{
+    display: flex;
+    align-items: center;
+
+    p{
+        font-size: 17px;
+        padding-left: 7px;
+    }
+
+    .r4{
+        width: 32px;
+
+    }
+    .r44{
+        width: 32px;
+        border-radius: 50%;
+    }
+}
+
+.r6{
+    display: flex;
+    margin-left: 22px;
+    
+    padding: 10px 20px;
+
+    .r7{
+        font-size: 15px;
+        padding: 4px 15px;
+        border-radius: 5px;
+        border: 0;
+        background: rgb(0, 185, 0);
+        color: white;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: all 0.2s;
+        &:hover{
+            background: rgb(0, 200, 0);
+        }
+    }
+    .r8{
+        font-size: 15px;
+        padding: 4px 16px;
+        border-radius: 5px;
+        border: 0;
+        background: rgb(226, 89, 4);
+        color: white;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: all 0.2s;
+        &:hover{
+            background: rgb(240, 95, 4);
+        }
+    }
+}
+
+}
+
+.results{
+   
+    z-index: 0;
+   
+    // top: 70px;
+    // right: 87px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+
+    .r1s{
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        .usersSeach{
+            width: 35px;
+            position: relative;
+            top: 2px;
+            cursor: pointer;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    }
+
+}
+
+@media screen and (max-width : 800px) {
+    .results{
+        
+        z-index: 999;
+       position: absolute;
+        
+        
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+    
+        // .r1s{
+        //     display: flex;
+        //     align-items: center;
+        //     margin-top: 5px;
+        //     margin-bottom: 5px;
+        //     .usersSeach{
+        //         width: 35px;
+        //         position: relative;
+        //         top: 2px;
+        //         cursor: pointer;
+        //         border-radius: 50%;
+        //         margin-right: 10px;
+        //     }
+        // }
+    
+    }
+}

@@ -1,0 +1,45 @@
+.navi{
+   
+    
+    
+    .active{
+        background: #ffffff;
+        border-radius: 6px;
+       
+        
+    }
+    
+}
+
+.sn{
+    display: flex; 
+    width: 100%;
+   
+   
+    padding: 10px;
+    margin-bottom: 4px;
+
+    .hn{
+        width: 29px;
+        margin-top: -3px;
+    }
+    .hns{
+        width: 24px;
+        margin-left: 3px;
+        position: relative;
+        top: -1px;
+        
+    }
+    p{
+        font-size: 17px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .sn{
+        p{
+            display: none;
+        }
+    }
+}
